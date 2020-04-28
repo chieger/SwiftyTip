@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		EDCED3C5244A86D1007ADDBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCED3C4244A86D1007ADDBB /* AppDelegate.swift */; };
 		EDCED3C7244A86D1007ADDBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCED3C6244A86D1007ADDBB /* SceneDelegate.swift */; };
-		EDCED3C9244A86D1007ADDBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCED3C8244A86D1007ADDBB /* ContentView.swift */; };
+		EDCED3C9244A86D1007ADDBB /* TipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCED3C8244A86D1007ADDBB /* TipView.swift */; };
 		EDCED3CB244A86D3007ADDBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDCED3CA244A86D3007ADDBB /* Assets.xcassets */; };
 		EDCED3CE244A86D3007ADDBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDCED3CD244A86D3007ADDBB /* Preview Assets.xcassets */; };
 		EDCED3D1244A86D3007ADDBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDCED3CF244A86D3007ADDBB /* LaunchScreen.storyboard */; };
+		EDCED3D9244A9667007ADDBB /* TipViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCED3D8244A9667007ADDBB /* TipViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EDCED3C1244A86D1007ADDBB /* SwiftyTip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyTip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDCED3C4244A86D1007ADDBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDCED3C6244A86D1007ADDBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EDCED3C8244A86D1007ADDBB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EDCED3C8244A86D1007ADDBB /* TipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipView.swift; sourceTree = "<group>"; };
 		EDCED3CA244A86D3007ADDBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDCED3CD244A86D3007ADDBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EDCED3D0244A86D3007ADDBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDCED3D2244A86D3007ADDBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDCED3D8244A9667007ADDBB /* TipViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				EDCED3C4244A86D1007ADDBB /* AppDelegate.swift */,
 				EDCED3C6244A86D1007ADDBB /* SceneDelegate.swift */,
-				EDCED3C8244A86D1007ADDBB /* ContentView.swift */,
+				EDCED3C8244A86D1007ADDBB /* TipView.swift */,
+				EDCED3D8244A9667007ADDBB /* TipViewModel.swift */,
 				EDCED3CA244A86D3007ADDBB /* Assets.xcassets */,
 				EDCED3CF244A86D3007ADDBB /* LaunchScreen.storyboard */,
 				EDCED3D2244A86D3007ADDBB /* Info.plist */,
@@ -148,7 +151,8 @@
 			files = (
 				EDCED3C5244A86D1007ADDBB /* AppDelegate.swift in Sources */,
 				EDCED3C7244A86D1007ADDBB /* SceneDelegate.swift in Sources */,
-				EDCED3C9244A86D1007ADDBB /* ContentView.swift in Sources */,
+				EDCED3D9244A9667007ADDBB /* TipViewModel.swift in Sources */,
+				EDCED3C9244A86D1007ADDBB /* TipView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
